@@ -1,0 +1,65 @@
+//add to favs
+.heart {
+    background-color: $featureColor;
+    display: inline-block;
+    height: 20px;
+    margin: 0 10px;
+    margin-right: 1.5rem;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 20px;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: "";
+    background-color: $featureColor;
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+  }
+  
+  .heart:before {
+    top: -10px;
+    left: 0;
+  }
+  
+  .heart:after {
+    left: 10px;
+    top: 0;
+  }
+
+  //remove from favs
+.heart-remove {
+    background-color: $highlightColor;
+    display: inline-block;
+    height: 20px;
+    margin: 0 10px;
+    margin-right: 1.5rem;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 20px;
+  }
+  
+  .heart-remove:before,
+  .heart-remove:after {
+    content: "";
+    background-color: $highlightColor;
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+  }
+  
+  .heart-remove:before {
+    top: -10px;
+    left: 0;
+  }
+  
+  .heart-remove:after {
+    left: 10px;
+    top: 0;
+  }

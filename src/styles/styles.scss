@@ -1,0 +1,37 @@
+//Main Style Import
+
+//Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Sarabun:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Sacramento:400');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:200i');
+
+        //font-family: 'Roboto', sans-serif;
+        //font-family: 'Sarabun', sans-serif;
+        //font-family: 'Limelight', cursive;
+        // font-family: 'Montserrat', sans-serif;
+
+
+// Utiltities
+@import './functions';
+@import './variables';
+@import './mixins';
+
+// Resets
+@import 'reset';
+@import './type';
+
+//HTML Components 
+@import './body';
+@import './wrapper';
+@import './header';
+@import './hamburger';
+@import './nav';
+@import './library';
+@import './movie-card';
+@import'./fav-button';
+@import './singleMovie';
+@import './page-fav';
+@import './page-about';
+@import './footer';

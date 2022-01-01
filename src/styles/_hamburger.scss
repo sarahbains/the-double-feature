@@ -1,0 +1,9 @@
+div.hamburger-react {
+    color: $highlightColor;
+}
+
+@media (min-width: 733px) {
+    .hamburger-react {
+        display: none;
+    }
+}

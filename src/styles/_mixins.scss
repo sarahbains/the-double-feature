@@ -1,0 +1,11 @@
+//Mixins
+
+@mixin mq($w){
+    @media (min-width: $w){
+        @content;
+    }
+}
+
+@mixin header-flex {
+    display: flex;
+}

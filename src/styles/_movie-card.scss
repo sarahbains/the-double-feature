@@ -1,0 +1,97 @@
+// Movie Card
+
+.movie-card {
+    padding: em(10);
+    margin-bottom: em(16);
+    background-color: rgba(black, 0.3);
+    border: em(3) dotted $textColor;
+    border-radius: em(8);
+    color: white;
+    position: relative;
+    
+    .btn-favourite {
+        position: absolute;
+        right: 0rem;
+        bottom: 1rem;
+    }
+    .release {
+        color: white;
+        font-size: 1rem;
+    }
+
+
+    img {
+        width: 100%;
+        border-radius: em(4);
+    }
+    .overview{
+        height: 20.5rem;
+        overflow: hidden;
+    }
+    .movie-poster {
+        position: relative;
+
+        &:hover{
+
+            .overlay {
+                opacity: 1;
+            }
+        }
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+        color: $highlightColor;
+        margin-left: 6px;
+        margin-right: 6px;
+      }
+
+    h3 {
+        padding-top: 0.5rem;
+        color: rgb(216, 216, 216);
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .3s ease;
+        background-color: $featureColor;
+    
+      }
+
+
+      a {
+        position: absolute;
+        color: $highlightColor;
+        bottom: 0.5rem;
+        left: 0.5rem;
+        padding: 0.5rem;
+        border: 1px solid $highlightColor;
+      }
+    .align-heart {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+@media (min-width: 500px){
+    .movie-card{ 
+        p{
+         font-size: 1rem;
+     }
+    }
+}
+@media (min-width: $desktop){
+    .movie-card{ 
+        p{
+         font-size: 1.5rem;
+     }
+    }
+}

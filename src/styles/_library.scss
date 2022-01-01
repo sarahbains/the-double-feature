@@ -1,0 +1,23 @@
+// Movies
+
+.library {
+    padding: em(12);
+
+    @include mq(em($tablet)){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: em(14);
+    }
+
+    @include mq(em($desktop)){
+        padding: em(20);
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: em(18);
+    }
+
+    @include mq(em($desktop)){
+        padding: em(20);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: em(18);
+    }
+}

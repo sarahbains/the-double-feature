@@ -1,0 +1,12 @@
+.wrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2rem;
+}
+
+@media (min-width: 1200px){
+    .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

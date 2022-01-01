@@ -1,0 +1,19 @@
+// Footer
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        .line{
+            width: 100%;
+            border-bottom: 5px solid $highlightColor;
+            margin-bottom: 1rem;
+        
+           
+            }
+    p {
+        margin: 0;
+        color: $highlightColor;
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+}
